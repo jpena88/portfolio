@@ -6,9 +6,46 @@
     <description>Recent content in Tags on jpena.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jpena.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>aws</title>
+      <link>https://jpena.io/tags/aws/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpena.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fargate</title>
+      <link>https://jpena.io/tags/fargate/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpena.io/tags/fargate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prisma</title>
+      <link>https://jpena.io/tags/prisma/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpena.io/tags/prisma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terraform</title>
+      <link>https://jpena.io/tags/terraform/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpena.io/tags/terraform/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

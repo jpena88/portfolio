@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2020-01-03T13:28:44-08:00
-draft: true
 ---
 
 I am a Site Reliability Engineer with over 10 years of experience doing lots of different things & solving many complex problems. What things you ask? things like automation, network, security, monitoring, logging, cloud, full-stack developing, and everything in between.

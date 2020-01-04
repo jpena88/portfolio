@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jpena.io</title>
-    <link>https://jpena.io/</link>
-    <description>Recent content on jpena.io</description>
+    <title>terraform on jpena.io</title>
+    <link>https://jpena.io/tags/terraform/</link>
+    <description>Recent content in terraform on jpena.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jan 2020 13:28:44 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jpena.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jpena.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://jpena.io/about/</link>
-      <pubDate>Fri, 03 Jan 2020 13:28:44 -0800</pubDate>
-      
-      <guid>https://jpena.io/about/</guid>
-      <description>I am a Site Reliability Engineer with over 10 years of experience doing lots of different things &amp;amp; solving many complex problems. What things you ask? things like automation, network, security, monitoring, logging, cloud, full-stack developing, and everything in between.
-I was once the first DevOps Engineer at a startup where I got the chance to build out the AWS infrastructure and code pipelines from the ground up. I got to wear many hats.</description>
-    </item>
     
     <item>
       <title>Deploy Prisma to AWS Fargate with Terraform</title>

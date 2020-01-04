@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2019-10-22T00:00:00-00:00
 title = "Deploy Prisma to AWS Fargate with Terraform"
 slug = "" 
