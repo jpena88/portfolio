@@ -38,7 +38,7 @@ h5,
 h6 {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
-  color: #343740;
+  color: #000;
   margin: 6.4rem 0 3.2rem 0; }
 
 h1 {
@@ -110,12 +110,12 @@ code {
   font-family: "Roboto Mono", monospace;
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: #343740;
+  background-color: #E0E0E0;
   color: #343740;
   padding: 0.2rem 0.4rem 0.2rem 0.4rem; }
 
 blockquote {
-  border-left: 2px solid #343740;
+  border-left: 2px solid #E0E0E0;
   padding-left: 2.0rem;
   line-height: 2.2rem;
   font-weight: 400;
@@ -128,7 +128,7 @@ table {
   border-collapse: collapse; }
 
 table td, table th {
-  border: 2px solid #343740; }
+  border: 2px solid #000; }
 
 table tr:first-child th {
   border-top: 0; }
@@ -338,8 +338,8 @@ img {
         max-height: 0;
         width: 100%;
         background-color: #FAFAFA;
-        border-top: solid 2px #343740;
-        border-bottom: solid 2px #343740;
+        border-top: solid 2px #E0E0E0;
+        border-bottom: solid 2px #E0E0E0;
         transition: opacity 0.25s, max-height 0.15s linear; } }
     .navigation .navigation-list .navigation-item {
       float: left;
@@ -364,7 +364,7 @@ img {
     display: none; }
     @media only screen and (max-width: 768px) {
       .navigation #menu-toggle:checked + label {
-        color: #343740; }
+        color: #E0E0E0; }
       .navigation #menu-toggle:checked + label + ul {
         visibility: visible;
         opacity: 1;
