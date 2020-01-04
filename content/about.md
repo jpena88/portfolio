@@ -6,8 +6,6 @@ draft: true
 
 I am a Site Reliability Engineer with over 10 years of experience doing lots of different things & solving many complex problems. What things you ask? things like automation, network, security, monitoring, logging, cloud, full-stack developing, and everything in between.
 
-I am originally from New York, but I moved to San Francisco in 2015 because it makes sense to be here in you are an engineer in tech, and also the weather is great all year round!
-
 I was once the first DevOps Engineer at a startup where I got the chance to build out the AWS infrastructure and code pipelines from the ground up. I got to wear many hats. I have also worked in medium and large sized companies where my focus was more specific.
 
 I am currently at [Udemy](https://udemy.com), where I get to work with cool tech like Kubernetes, Django, Terraform, Ansible, Datadog etc. 
