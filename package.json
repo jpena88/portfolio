@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-hugo",
+  "version": "1.0.0",
+  "description": "My portfolio & blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "hugo server -w -D -v",
+    "build": "hugo -v",
+    "deploy": "aws s3 sync public s3://jpena-portfolio-hugo --acl public-read --profile jpena"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpena88/portfolio-hugo.git"
+  },
+  "author": "John Peña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpena88/portfolio-hugo/issues"
+  },
+  "homepage": "https://github.com/jpena88/portfolio-hugo#readme"
+}
