@@ -1,4 +1,4 @@
-baseurl = "http://jpena.io"
+baseurl = "https://jpena.io"
 title = "jpena.io"
 theme = "hugo-coder"
 languagecode = "en"
