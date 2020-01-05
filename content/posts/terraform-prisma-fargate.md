@@ -6,9 +6,10 @@ tags = ['prisma', 'terraform', 'aws', 'fargate']
 categories = []
 externalLink = ""
 series = []
+images = ["/static/prisma-logo.png"]
 +++
 
-![aws_prisma_terraform](/static/main.jpeg)
+![aws_prisma_terraform](/static/prisma-main.png)
 
 A recent project that I worked on introduced Prisma to our stack, an ORM-like layer that does the heavy lifting in your GraphQL server. Rather than diving deep into what Prisma is and how it operates, this post will guide you through using Terraform to automate & deploy the entire stack — The Prisma server & the AWS resources needed to support it.
 
@@ -16,7 +17,7 @@ If you prefer using CloudFormation for IaaC, you’re in luck! there’s already
 
 ## What is Prisma?
 
-![prisma](/static/prisma.png)
+![prisma](/static/prisma-diagram.png)
 
 Prisma replaces traditional ORMs and simplifies database workflows. It is used to build GraphQL, REST, gRPC APIs and more. It supports PostgreSQL, MySQL and MongoDB. Essentially, it is a standalone infrastructure component that sits on top of your database, and ultimately enables you to talk to your database(s) through a simple and modern API ensuring highly performant and secure database access. We will be using PostgreSQL for this exercise.
 - The AWS Stack
@@ -96,7 +97,7 @@ Time to go grab a coffee or a snack. This might take a while. But rest assured w
 
 Navigate to your ALB endpoint and you should see your Prisma server up & running!
 
-![aws_prisma_terraform](/static/prisma_ui.png)
+![aws_prisma_terraform](/static/prisma-ui.png)
 
 Now that you have this up & running, you can begin to start building some dope apps! For more on what you can do from here, see here.
 

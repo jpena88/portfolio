@@ -9,7 +9,9 @@
     <meta name="description" content="My blog">
     <meta name="keywords" content="blog,developer,personal">
 
-    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jpena.io/static/prisma-logo.png"/>
+
 <meta name="twitter:title" content="Deploy Prisma to AWS Fargate with Terraform"/>
 <meta name="twitter:description" content="A recent project that I worked on introduced Prisma to our stack, an ORM-like layer that does the heavy lifting in your GraphQL server. Rather than diving deep into what Prisma is and how it operates, this post will guide you through using Terraform to automate &amp; deploy the entire stack — The Prisma server &amp; the AWS resources needed to support it.
 If you prefer using CloudFormation for IaaC, you’re in luck!"/>
@@ -19,6 +21,7 @@ If you prefer using CloudFormation for IaaC, you’re in luck!"/>
 If you prefer using CloudFormation for IaaC, you’re in luck!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jpena.io/posts/terraform-prisma-fargate/" />
+<meta property="og:image" content="https://jpena.io/static/prisma-logo.png" />
 <meta property="article:published_time" content="2019-10-22T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-10-22T00:00:00+00:00" />
 
@@ -127,11 +130,11 @@ If you prefer using CloudFormation for IaaC, you’re in luck!" />
       </header>
 
       <div>
-        <p><img src="https://jpena.io/static/main.jpeg" alt="aws_prisma_terraform"></p>
+        <p><img src="https://jpena.io/static/prisma-main.png" alt="aws_prisma_terraform"></p>
 <p>A recent project that I worked on introduced Prisma to our stack, an ORM-like layer that does the heavy lifting in your GraphQL server. Rather than diving deep into what Prisma is and how it operates, this post will guide you through using Terraform to automate &amp; deploy the entire stack — The Prisma server &amp; the AWS resources needed to support it.</p>
 <p>If you prefer using CloudFormation for IaaC, you’re in luck! there’s already an awesome <a href="https://www.prisma.io/tutorials/deploy-prisma-to-aws-fargate-ct14">tutorial</a> for you.</p>
 <h2 id="what-is-prisma">What is Prisma?</h2>
-<p><img src="https://jpena.io/static/prisma.png" alt="prisma"></p>
+<p><img src="https://jpena.io/static/prisma-diagram.png" alt="prisma"></p>
 <p>Prisma replaces traditional ORMs and simplifies database workflows. It is used to build GraphQL, REST, gRPC APIs and more. It supports PostgreSQL, MySQL and MongoDB. Essentially, it is a standalone infrastructure component that sits on top of your database, and ultimately enables you to talk to your database(s) through a simple and modern API ensuring highly performant and secure database access. We will be using PostgreSQL for this exercise.</p>
 <ul>
 <li>The AWS Stack</li>
@@ -198,7 +201,7 @@ For now we are specifying the desired count as 1, but you can easily change this
 <p>Time to go grab a coffee or a snack. This might take a while. But rest assured when you get back, and by the grace of the Terraform gods, all of your AWS infrastructure and Prisma should have been automagically deployed! Woo!</p>
 <p><code>Apply complete! Resources: 32 added, 0 changed, 0 destroyed.</code></p>
 <p>Navigate to your ALB endpoint and you should see your Prisma server up &amp; running!</p>
-<p><img src="https://jpena.io/static/prisma_ui.png" alt="aws_prisma_terraform"></p>
+<p><img src="https://jpena.io/static/prisma-ui.png" alt="aws_prisma_terraform"></p>
 <p>Now that you have this up &amp; running, you can begin to start building some dope apps! For more on what you can do from here, see here.</p>
 <h2 id="reusable-modules">Reusable Modules</h2>
 <p>If you have multiple environments that you plan to deploy to, you can structure your repo in such a way that your Terraform modules are reusable across dev, stage, and prod. You can even put your modules into a separate repo entirely.
