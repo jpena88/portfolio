@@ -6,7 +6,7 @@ tags = ['prisma', 'terraform', 'aws', 'fargate']
 categories = []
 externalLink = ""
 series = []
-images = ["/static/prisma-logo.png"]
+images = ["/static/prisma-thumbnail.png"]
 +++
 
 ![aws_prisma_terraform](/static/prisma-main.png)
