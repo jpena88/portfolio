@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "About Me"
 date: 2020-01-03T13:28:44-08:00
 ---
 
-I am a Site Reliability Engineer with over 10 years of experience doing lots of different things & solving many complex problems. What things you ask? things like automation, network, security, monitoring, logging, cloud, full-stack developing, and everything in between.
+I am a Site Reliability Engineer with over 10 years of experience doing lots of different things & solving many complex problems. What things you ask? Things like automation, network, security, monitoring, logging, cloud, full-stack developing, and everything in between.
 
 I was once the first DevOps Engineer at a startup where I got the chance to build out the AWS infrastructure and code pipelines from the ground up. I got to wear many hats. I have also worked in medium and large sized companies where my focus was more specific.
 
@@ -15,7 +15,7 @@ Certifications that I have achieved:
 - Red Hat Certified Systems Adminisator (RHCSA)
 - Certified Meraki Network Operator
 
-In general, I just love learning new things!
+In general, I love to learn new things.
 
 My hobbies include playing video games (mostly Apex Legends and Fifa), watching sports, playing basketball, and being an assistant to my two french bulldogs. I'm also a nerd that loves Star Wars, LoTR, and Harry Potter. My favorite show is Mr. Robot. 
 

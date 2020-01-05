@@ -11,6 +11,8 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+disqusShortname = "yourdiscussshortname"
+
 [params]
     author = "Hi! I'm John"
     info = "I am a Site Reliability Engineer @Udemy"
