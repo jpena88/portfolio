@@ -17,7 +17,7 @@ Certifications that I have achieved:
 
 I love learning new things.
 
-My hobbies include playing video games, watching sports, playing basketball, and hanging out with my two french bulldogs. 
+My hobbies include coding, playing video games, watching sports, playing basketball, and hanging out with my two french bulldogs. 
 
 My favorite show is Mr. Robot. 
 
