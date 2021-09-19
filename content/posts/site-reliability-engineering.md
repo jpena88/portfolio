@@ -30,3 +30,5 @@ First and foremost, SREs are engineers. We apply the principles of computer scie
 - [Regex Cheat Sheet](https://www.geeksforgeeks.org/python-regex-cheat-sheet/)
 
 - [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
+- [The Art of Unix Programming](https://nakamotoinstitute.org/static/docs/taoup.pdf)
