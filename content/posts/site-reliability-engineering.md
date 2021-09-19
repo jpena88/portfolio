@@ -24,3 +24,5 @@ First and foremost, SREs are engineers. We apply the principles of computer scie
 - [SRE @ Dropbox](https://tammybutow.medium.com/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b)
 
 - [Google SRE Books](https://sre.google/books/)
+
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
