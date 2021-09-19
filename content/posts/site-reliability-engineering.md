@@ -26,3 +26,7 @@ First and foremost, SREs are engineers. We apply the principles of computer scie
 - [Google SRE Books](https://sre.google/books/)
 
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
+
+- [Regex Cheat Sheet](https://www.geeksforgeeks.org/python-regex-cheat-sheet/)
+
+- [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
