@@ -1,5 +1,5 @@
-baseurl = "https://jpena.io"
-title = "jpena.io"
+baseurl = "https://jpena.dev"
+title = "jpena.dev"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -11,7 +11,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "jpena-io"
+disqusShortname = "jpena-dev"
 
 [params]
     author = "Hi! I'm John"
@@ -38,12 +38,12 @@ disqusShortname = "jpena-io"
     name = "Github"
     icon = "fab fa-github fa-2x"
     weight = 1
-    url = "https://github.com/jpena88/"
+    url = "https://github.com/jpenagg/"
 [[params.social]]
     name = "Linkedin"
     icon = "fab fa-linkedin fa-2x"
     weight = 2
-    url = "https://linkedin.com/in/jpena88/"
+    url = "https://linkedin.com/in/jpenagg/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
