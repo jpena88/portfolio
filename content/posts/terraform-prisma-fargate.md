@@ -39,38 +39,38 @@ The final product of this post is **NOT** meant to be production ready. Meaning,
 ## Remote State
 The first thing you should probably create is your state file. In this tutorial we will be using a remote state file stored on S3, with state locking provided by DynamoDB.
 
-{{< gist jpena88 7d0a8a50ee0c76aff08ca7364c85dc7f >}}
+{{< gist jpenagg 7d0a8a50ee0c76aff08ca7364c85dc7f >}}
 
 ## Provider
 You’ll also need the AWS provider to interact with the many resources supported by AWS. Make sure to change your profile as needed.
-{{< gist jpena88 b8191e82ddb1caf84e2e8cf265667557 >}}
+{{< gist jpenagg b8191e82ddb1caf84e2e8cf265667557 >}}
 
 ## VPC
 Next, we create our VPC, which will consist of 2 public subnets, 2 private subnets, an internet gateway, a NAT gateway, & route tables. I’m launching this stack into us-west-1 so adjust accordingly.
-{{< gist jpena88 81e8d83e7baa8713a6f8c701a70f260d >}}
+{{< gist jpenagg 81e8d83e7baa8713a6f8c701a70f260d >}}
 
 ## ECS
 Here is the Prisma ECS task definition template in JSON format. Note that the PRISMA_CONFIG environment variable contains key value pairs of strings which Prisma parses as YAML. For this we can interpolate any values of our choosing using Terraform’s template_file data source (See ECS module).
-{{< gist jpena88 f72d7cc5331f3d4a6dbc66b954f045b4 >}}
+{{< gist jpenagg f72d7cc5331f3d4a6dbc66b954f045b4 >}}
 
 Next, we create our ECS cluster. ECS consists of a cluster, a service, a task and a task definition. You can think of a cluster as a logical grouping of containers. A service is essentially the scheduler, and is in charge of making sure that the specified number of tasks is running at all times. The task is the running container instance. The task definition is like a Docker Compose file, and contains the container configurations. More on ECS here.
 For now we are specifying the desired count as 1, but you can easily change this to 2 (or more) for higher availability. You’ll also notice a CloudWatch log group is being created here, which Prisma will output logs to.
-{{< gist jpena88 1a29f2cc583f22bb0d1a2a4cf967c986 >}}
+{{< gist jpenagg 1a29f2cc583f22bb0d1a2a4cf967c986 >}}
 
 ## ALB
 Next, we create our ALB. The load balancer distributes incoming application traffic across multiple targets, which in this case will be the running ECS tasks.
-{{< gist jpena88 3f1df09ef6c0e5063783846e4bcc8ba2 >}}
+{{< gist jpenagg 3f1df09ef6c0e5063783846e4bcc8ba2 >}}
 
 ## RDS
 Next, we create our RDS instance. We are using PostgreSQL as our Prisma database connector.
-{{< gist jpena88 0efece2b4cd50ad84352fc863894b9d8 >}}
+{{< gist jpenagg 0efece2b4cd50ad84352fc863894b9d8 >}}
 
 ## Variables
 Next, we can define our variables. It’s nice to pretty up your variables.tf by adding descriptions and default values if applicable.
-{{< gist jpena88 dae68754d10a4263747fc805b3feb9c2 >}}
+{{< gist jpenagg dae68754d10a4263747fc805b3feb9c2 >}}
 
 And lastly, we can create our input variables file. I will be naming it input.tfvars. Make sure to update prisma_server_acm with the ARN of your ACM certificate. Depending on how the rest your infrastructure is set up, you can also use a terraform_remote_state data source or perhaps an output value to retrieve the ARN of your ACM if it’s handled by Terraform. For now we can just hardcode it.
-{{< gist jpena88 457479c089003cf3207d9e2d43895a3b >}}
+{{< gist jpenagg 457479c089003cf3207d9e2d43895a3b >}}
 
 ## Plan & Apply
 Once this is all set up, the magic begins…
@@ -127,7 +127,7 @@ modules
      └ variables.tf
 ```
 And your main.tf should now look something like this:
-{{< gist jpena88 6e7f5198f5f786c9b5f4548c60a6afd6 >}}
+{{< gist jpenagg 6e7f5198f5f786c9b5f4548c60a6afd6 >}}
 
 At this point, the only difference should be your tfvars file(s) across all of your environments. This might not be perfect, but it helps keep your code DRY.
 
